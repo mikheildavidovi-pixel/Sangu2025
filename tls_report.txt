@@ -1,0 +1,27 @@
+TLS Handshake Explanation:
+
+ClientHello - lists supported ciphers;
+
+ServerHello - selects cipher suite and sends certificate;
+
+Key exchange - session key derived;
+
+Finished - encrypted communication starts.
+
+
+
+MITM Protection:
+
+Certificates signed by trusted CAs;
+
+Public-key validation prevents spoofing;
+
+Session keys unique per connection.
+
+
+
+TLS in Websites:
+
+Ensures confidentiality, integrity and authenticity;
+
+Protects login forms, payments and any data transfer.
