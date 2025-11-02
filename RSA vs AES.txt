@@ -1,0 +1,19 @@
+Explain the performance and use-case differences between RSA and AES:
+
+
+RSA:
+
+Asymmetric encryption (uses key pair);
+
+Slower - best for encrypting small data or keys;
+
+Used in TLS handshakes and digital signatures.
+
+
+AES
+
+Symmetric encryption (same key for encrypt/decrypt);
+
+Much faster - ideal for large files;
+
+Commonly used for bulk data encryption.
