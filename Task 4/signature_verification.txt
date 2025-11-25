@@ -1,0 +1,5 @@
+The signature proves the message was sent by Alice. 
+
+GPG verified the signature using Alice’s public key (alice_pub.asc), confirming the message came from her and has not been altered. 
+
+Any changes to the message would cause verification to fail, ensuring authenticity and integrity.
